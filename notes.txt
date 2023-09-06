@@ -1,0 +1,147 @@
+Telling the story
+
+NOIR Scale
+- Nominal (N)
+- Ordinal (O)
+- Interval (I)
+- Ratio (R)
+
+Math operation
+- mean
+- median
+- min/max
+- standard deviation
+
+Follow Gestalt Principles in Data Visualisation
+- Proximity: Closer is together
+- Similarity: Birds of a feather flock toghether
+- Simplicity: Simplicity is the ultimate sophistication
+- Connectedness: Close links bonds
+- Enclosure: Feeling boxed in
+- Continuity: It cannot change so quickly
+- Symmetry: Seeing both sides
+- Figure-ground: Standing out from the crowd
+
+Also the pyschological principles of effective graphics
+- Principle of relevance: The Goldilocks principle
+- Principle of appropriate knowledge
+- Principle of salience: Attention to the important
+- Principle of discriminability: Maintain a good contrast
+- Principle of perceptual organisation: Making visual sense
+- Principle of compatability: Saying the same thing
+- Principle of information changes: Meaningful changes
+- Principle of capacity limitation: Too much means only a little
+
+Colour Palette:
+- Nominal Scale
+	- no more than 12 categories
+- Ordinal Scale
+	- sequential palette: for unidirectional ordinal scale
+	- diverging palette: for dual direction ordering
+- Interval/Ratio Scale
+	- colour to distinguish values or magnitude
+
+Types of plot
+- comparison plot
+	- line chart
+	- bar chart
+- composition plot
+	- pie/donut chart
+	- stacked bar chart
+	- stacked area chart
+- relation plot
+	- scatter plot
+	- bubble plot
+	- heatmap
+- distribution plot
+	- histogram
+	- box plot (whisker plot)
+	- violin plot
+
+Types of chart
+- temporal (data that represent state of time)
+	- line chart
+	- bar chart
+	- scatter plot
+	- stacked area chart
+- hierarchy
+	- treemap
+	- sunburst diagram
+	- circle packing
+- geospatial
+	- choropleth map
+	- dot density
+	- bubble map
+	- heat map
+- others
+	- pie chart (1D)
+	- histogram
+	- bubble chart
+
+visual variables categories:
+- position
+- size
+- shape
+- value (intensity)
+- colour
+- orientation
+- texture
+
+visualisation tools:
+- matplotlib
+- seaborn
+- pandas
+- bokeh
+	- View navigation
+	- Data points selection
+	- Interactive queries
+	- Interactive legends
+	- linking brushing
+	- widget interaction
+	- tool-based interactions
+- scipy
+- geopandas
+- geoplot
+- worldcloud
+
+Analysis Type
+- Statistical Analysis
+- Exploratory Analysis
+	- Correlation Analysis
+	- Univariate Analysis
+	- Bivariate Analysis
+	- Confirmatory Analysis
+	- Multivariate Analysis
+	- Time Series Analysis
+		- seasonal component
+		- trend component
+		- cyclical component
+		- noise/residual component
+
+Dataset chosen
+- hdb_info
+
+- resale_value
+
+Data type
+- Quantitative
+	- Discrete
+	- Continuous
+- Qualitatitve
+
+Question to ask about dataset
+1) does the town areas affect the pricing?
+2) which period of time does price increase the most?
+3) What is the distribution of housing prices based on different room types (1-room, 2-room, 3-room, 4-room, 5-room, etc.)? Are there any noticeable trends or anomalies in pricing for specific room types?
+4) Is there any correlation between the year of completion and housing prices? Do more recently completed buildings tend to have higher or lower prices?
+5) What is the relationship between the maximum floor level and housing prices? Do properties on higher floors typically command higher prices?
+6) How does the presence of commercial and residential units in a building impact housing prices? Are properties in mixed-use buildings more or less expensive than those in purely residential buildings?
+7) Are there any differences in housing prices based on the presence of amenities like market hawker centers, multistorey carparks, or precinct pavilions in the vicinity?
+8) Does the town or precinct of the building's construction contract have an influence on housing prices? Are there towns or precincts that consistently have higher or lower prices?
+9) Can you identify any geographic patterns in housing prices based on the postal code or street name? Are certain areas consistently more expensive than others?
+10) What is the distribution of rental prices for different room types (1-room, 2-room, 3-room, etc.)? Are there any areas where rental prices are notably higher or lower?
+11) How do sales and rental prices compare for studio apartments? Are they more expensive to buy than to rent?
+12) Are there any significant changes in housing prices over time? Can you identify any trends or seasonal variations in pricing?
+13) How does the flat model (e.g., Improved, Model A, etc.) impact resale prices, and are certain flat models more desirable in the market?
+14) Is there any seasonality in resale prices over time? Do prices tend to fluctuate throughout the year, and if so, when are they typically higher or lower?
+15) Are there any outliers in the dataset that might indicate unusual resale prices? How can you identify and handle such outliers in your analysis?
